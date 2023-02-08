@@ -23,6 +23,6 @@ class usuarios:
 if __name__=="__main__":
    a=usuarios()
    #print(a.insertar(input('Nombre: '),input('Apellidos: ')))
-   print(a.datos())
+   print(a.datos()) 
    
 
