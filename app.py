@@ -11,7 +11,7 @@ def inicio():
 @app.route('/datos')
 def carga():
     a=usuarios()
-    return a.datos()
+    return a.datos() 
 
 @app.route('/insert', methods = ['POST'])
 def insertado():
